@@ -1,0 +1,37 @@
+[
+  {
+    "id": "a27d4ef1-3310-4f85-b747-6182694d8af3",
+    "title": "something",
+    "description": "love it",
+    "votes": 1,
+    "notes": [
+      {
+        "id": "4f38b33f-9faa-4672-b7d7-f07581ed3c25",
+        "text": "cool",
+        "createdAt": "2025-06-05T17:45:56.678Z"
+      },
+      {
+        "id": "7befcc22-aaa3-4825-9ec9-2dc801a7e313",
+        "text": "so ice",
+        "createdAt": "2025-06-05T17:46:02.547Z"
+      }
+    ],
+    "files": [],
+    "createdAt": "2025-06-05T17:45:49.320Z"
+  },
+  {
+    "id": "c95f4703-7bf5-4300-b7f7-de98322a4eb8",
+    "title": "Another thing",
+    "description": "meta",
+    "votes": 2,
+    "notes": [],
+    "files": [
+      {
+        "filename": "331a1d71-14ca-41e0-b80f-d6c0f5c0347f-new_avatar.jpeg",
+        "originalname": "new_avatar.jpeg",
+        "size": 20456
+      }
+    ],
+    "createdAt": "2025-06-05T17:46:28.042Z"
+  }
+]

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ideas Collection App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>💡 Ideas Collection</h1>
+            <p>Share your ideas and vote on the best ones!</p>
+        </header>
+
+        <section class="add-idea">
+            <h2>Add New Idea</h2>
+            <form id="ideaForm" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="title">Title:</label>
+                    <input type="text" id="title" name="title" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="description">Description:</label>
+                    <textarea id="description" name="description" rows="3"></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label for="files">Attach Files (optional):</label>
+                    <input type="file" id="files" name="files" multiple>
+                </div>
+                
+                <button type="submit">Add Idea</button>
+            </form>
+        </section>
+
+        <section class="ideas-list">
+            <h2>Ideas</h2>
+            <div id="ideasContainer">
+                <p class="loading">Loading ideas...</p>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

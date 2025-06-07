@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  ideas-app:
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - ideas-data:/app/data
+    environment:
+      - NODE_ENV=production
+      - DATA_DIR=/app/data
+    restart: unless-stopped
+
+volumes:
+  ideas-data:
+    driver: local
